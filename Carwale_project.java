@@ -35,7 +35,7 @@ public class Carwale_project {
 		driver.findElement(By.id("findCarText")).click();
 		driver.findElement(By.xpath("(//div[@class = 'o-bkmzIL o-eNlUkX o-biKUts o-eUqSLf o-dbKqqe o-ItVGT o-YCHtV o-eZTujG o-AxjCR'])[7]")).click();		
 		driver.findElement(By.xpath("(//label[@class = 'o-frwuxB o-flVtyy o-eemiLE  o-cpnuEd o-dsiSgT   o-fzoHFO o-fzoHCA o-fzpihY o-fzpilm'])[24]")).click();
-	    driver.findElement(By.xpath("//input[@placeholder='Select Manufacturer']")).sendKeys("Creta");
+	        driver.findElement(By.xpath("//input[@placeholder='Select Manufacturer']")).sendKeys("Creta");
 		driver.findElement(By.xpath("(//input[@class = 'o-bfyaNx o-cYOpxG o-bXKmQE o-btTZkL o-KXCcx o-cXBIhK o-frwuxB'])[11]")).click();
 		driver.findElement(By.xpath("(//div[@class = 'o-bkmzIL o-eNlUkX o-biKUts o-eUqSLf o-dbKqqe o-ItVGT o-YCHtV o-eZTujG o-AxjCR'])[3]")).click();
 		driver.findElement(By.xpath("(//input[@class = 'o-bfyaNx o-cYOpxG o-bXKmQE o-btTZkL o-KXCcx o-cXBIhK o-frwuxB'])[24]")).click();
